@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="imager/logo_blue.svg" alt="URSA" class="logo">
+        <ul class="header_spisok">
+            <li class="header_list">
+                <a href="index.html" class="header_link">Home</a>
+            </li>
+            <li class="header_list">
+                <a href="aboutUs.html" class="header_link">About us</a>
+            </li>
+            <li class="header_list">
+                <a href="services.html" class="header_link">Services</a>
+            </li>
+            <li class="header_list">
+                <a href="whyursa.html" class="header_link">Why URSA</a>
+            </li>
+            <li class="header_list">
+                <a href="contact.html" class="header_link">Contact us</a>
+            </li>
+        </ul>
+        <div class="language_block">
+            <img id="flag_icon" src="imager/enflag.svg" alt="English" class="flag-icon">
+            <select id="language-dropdown">
+                <option value="en6" data-flag="imager/enflag.svg" selected>English</option>
+                <option value="tur6" data-flag="imager/turflag.svg">Türkçe</option>
+                <option value="ru6" data-flag="imager/ruflag.svg">Русский</option>
+                <option value="de6" data-flag="imager/deuflag.svg">Deutsch</option>
+                <option value="ita6" data-flag="imager/italflag.svg">Italiano</option>
+                <option value="ar6" data-flag="imager/flag.svg">اَلْعَرَبِيَّةُ</option>
+                <option value="isp6" data-flag="imager/esflag.svg">Español</option>
+                <option value="fr6" data-flag="imager/chinaflag.svg">中文</option>
+            </select>
+          </div>
+          <button><img src="imager/menu.svg" alt="меню" class="dropmenu_btn"></button>
+          <ul class="dropmenu">
+            <li class="dropmenu_list">
+                <a href="index.html" class="dropmenu_link">Home</a>
+            </li>
+            <li class="dropmenu_list">
+                <a href="" class="dropmenu_link">About us</a>
+            </li>
+            <li class="dropmenu_list">
+                <a href="" class="dropmenu_link">Services</a>
+            </li>
+            <li class="dropmenu_list">
+                <a href="" class="dropmenu_link">Why URSA</a>
+            </li>
+            <li class="dropmenu_list">
+                <a href="" class="dropmenu_link">Contact us</a>
+            </li>
+            <button class="header_btn-active">For clients</button>
+        </ul>
+          <button class="header_btn">For clients</button>
+    </header>
+
+    <main>
+        <section class="section_contact">
+            <h1>Bize <span style="color: var(--ursa-blue);">Ulaşın</span></h1>
+            <div class="contact_block">
+                <div class="contact_contact">
+                    <img src="imager/contact.png" alt="" class="img_dekstop">
+                    <img src="imager/contact_mobile.png" alt="" class="img_mobile">
+                    
+                    <div class="contact_cont">
+                        <p id="cont_p" style="font-weight: 700;text-transform: uppercase;font-size: 24px;margin-bottom: 20px;">URSA International</p>
+                        <div>
+                            <img src="imager/location_on-black.svg" alt="">
+                            <p>Sahrayicedit Mah. Batman Sk. No: 30 iç</br>Kapi No: 1 Kadıköy, İstanbul, Türkiye</p>
+                        </div>
+                        <div>
+                            <img src="imager/mail-black.svg" alt="">
+                            <a href="mailto:info@ursaturkey.com">info@ursaturkey.com</a>
+                        </div>
+                        <div>
+                            <img src="imager/call-black.svg" alt="">
+                            <a href="tel:+90 216 888 1 555">+90 216 888 1 555</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="contact_input">
+                    <p id="question">Have questions?</br>Reach out to us!</p>
+                    <form class="contact_form">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div>
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    
+                        <div>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+
+                        </div>
+
+                        <div>
+                            <label for="message">Message</label>
+                            <input type="text" name="message" id="message">
+                        </div>
+                    
+                    </form>
+                    <button>Contact us</button>
+                    <label class="checkbox_container">
+                        <input type="checkbox">
+                        I agree that my data is <span style="text-decoration: underline;">collected and stored</span>
+                        <span class="checkmark"></span>
+                    </label>                    
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <img src="imager/logo_white.svg" alt="logo">
+        <ul class="footer_spisok">
+            <li class="footer_list">
+                <a href="index.html" class="footer_link">Home</a>
+            </li>
+            <li class="footer_list">
+                <a href="aboutUs.html" class="footer_link">About us</a>
+            </li>
+            <li class="footer_list">
+                <a href="services.html" class="footer_link">Services</a>
+            </li>
+            <li class="footer_list">
+                <a href="whyursa.html" class="footer_link">Why URSA</a>
+            </li>
+            <li class="footer_list">
+                <a href="contact.html" class="footer_link">Contact us</a>
+            </li>
+        </ul>
+
+        <div class="footer_contact">
+            <div>
+                <img src="imager/location_on.svg" alt="">
+                <p>Sahrayicedit Mah. Batman Sk. No: 30 ic</br>Kapi No: 1 Kadikoy, Istanbul, Turkey</p>
+            </div>
+            <div>
+                <img src="imager/mail.svg" alt="">
+                <a href="mailto:info@ursaturkey.com">info@ursaturkey.com</a>
+            </div>
+            <div>
+                <img src="imager/call.svg" alt="">
+                <a href="tel:+90 216 888 1 555">+90 216 888 1 555</a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script src="javascript.js"></script>
+</html>
