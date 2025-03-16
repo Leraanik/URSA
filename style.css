@@ -654,7 +654,7 @@ html, body {
     }
 
 }
-@media(max-width: 320px){
+@media(max-width: 480px){
     .header{
         height: 50px;
     }
