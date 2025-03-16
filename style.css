@@ -409,7 +409,7 @@ html, body {
 .for_mobile{
     display: none;
 }
-@media(max-width:1080px){
+@media(max-width:640px){
     .header{
         height: 77px;
     }
@@ -654,7 +654,7 @@ html, body {
     }
 
 }
-@media(max-width: 480px){
+@media(max-width: 320px){
     .header{
         height: 50px;
     }
